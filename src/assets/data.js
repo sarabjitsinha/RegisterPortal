@@ -81,3 +81,61 @@ export const companyIcon=["/Companylogo.svg","/Companylogo-1.svg",
     "/Companylogo-2.svg","/Companylogo-3.svg",
     "/Companylogo-4.svg","/Companylogo-5.svg"
 ]
+
+
+export const blog=[
+    {
+        cover_image:"/Blog1.png",
+        author:"Prabhash Mishra • 1 Jan 2023 • Today",
+        heading:"Small business & Startup  ",
+        stext:"Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
+        text1:"Tax & Audit",
+        text2:"Management",
+        text3:''
+    },
+    {
+        cover_image:"/Blog2.png",
+        author:"Mahesh Kumar • 1 Jan 2023",
+        heading:"Scale-Up Company Offer",
+        stext:"Mental models are simple expressions of complex processes or relationships.Tax Research",
+        text1:"Tax",
+        text2:"Research",
+        text3:"Compliance"
+    },
+    {
+        cover_image:"/Blog3.png",
+        author:"Rakhi Verma • 1 Jan 2023",
+        heading:"Growing Business Package",
+        stext:"Introduction to Wireframing and its Principles. Learn from the best in the industry.Audit Money",
+        text1:"Audit",
+        text2:"Moneyback",
+        text3:""
+    },
+    {
+        cover_image:"/Blog4.png",
+        author:"Karan Kumar • 1 Jan 2023",
+        heading:"Scale-Up Company Offer",
+        stext:"Collaboration can make our teams stronger, and our individual designs better.Money",
+        text1:"Money",
+        text2:"Management",
+        text3:""
+    }, 
+    {
+        cover_image:"/Blog5.png",
+        author:"Richa Singh • 1 Jan 2023",
+        heading:"Scale-Up Company Offer",
+        stext:"JavaScript frameworks make development easy with extensive features and functionalities.Tax Return",
+        text1:"Taxreturn",
+        text2:"News",
+        text3:"Audit"
+    }, 
+    {
+        cover_image:"/Blog6.png",
+        author:"Miss Nora• 1 Jan 2023",
+        heading:"Scale-Up Company Offer",
+        stext:"Starting a community doesn’t need to be complicated, but how do you get started? Private Limited",
+        text1:"Private Limited Company",
+        text2:"Customer Success",
+        text3:""
+    }, 
+]

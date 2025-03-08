@@ -43,3 +43,7 @@
 .div3{
   flex-basis: 20%;
 }
+.divsec{
+width: 100vw; 
+background: linear-gradient(96.22deg, #FFA229 9%, #1C4670 59.37%);
+}
