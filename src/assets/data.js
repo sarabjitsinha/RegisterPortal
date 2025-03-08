@@ -75,3 +75,9 @@ heading:"Bookkeeping Services",
 detail:"Steering user behaviours with creative design, data insights & technology"
 },
 ]
+
+
+export const companyIcon=["/Companylogo.svg","/Companylogo-1.svg",
+    "/Companylogo-2.svg","/Companylogo-3.svg",
+    "/Companylogo-4.svg","/Companylogo-5.svg"
+]
