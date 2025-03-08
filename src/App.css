@@ -1,0 +1,45 @@
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  font-size:x-large;
+  .btnel {
+    background-color: orange;
+  }
+}
+
+@media (max-width:600px){
+  .header{
+    flex-direction: column;
+  }
+ .sec5{
+  flex-direction: column;
+ }
+}
+
+@media (max-width:470px){
+  
+  .banner{
+    flex-direction: column;
+       
+  }
+  .sec5-1{
+    flex-direction: column;
+   }
+  
+}
+
+.section1{
+  padding: 10px;
+}
+
+.div1{
+  flex-basis: 40%;
+}
+
+.div2{
+  flex-basis: 40%;
+}
+
+.div3{
+  flex-basis: 20%;
+}
