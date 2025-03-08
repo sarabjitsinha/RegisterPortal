@@ -10,7 +10,7 @@ import Section7 from './components/Section7'
 import Section8 from './components/Section8'
 import Section9 from './components/Section9'
 import Section11 from './components/Section11'
-
+import Section13 from './components/Section13'
 import Section14 from './components/Section14'
 import Section15 from './components/Section15'
 import Banner from './components/Banner'
@@ -35,7 +35,7 @@ function App() {
       <Section8/>
       <Section9/>
       <Section11/>
-      
+      <Section13/>
       <Section14/>
       <Section15/>
       <Footer/>

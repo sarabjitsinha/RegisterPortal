@@ -4,7 +4,7 @@ import frame from "/Frame 394.svg"
 function Section4(){
 
     return(
-        <div className=" flex pb-5" >
+        <div className=" flex flex-wrap pb-5" >
             <div className=" basis-[50%] p-4">
             <h1 className=" text-amber-500">WELCOME TO REGISTERKARO. IN </h1>
             <br />

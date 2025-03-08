@@ -8,9 +8,9 @@ function Section14(){
             <div className=" border-0.5 border-slate-600">
                 <input type="text" placeholder="Enter search" />
                 <span className=" bg-amber-400 rounded-4xl">Search</span></div>
-            <span><img src={altxt} className=" inline" />Instant Results 
-            <img src={altxt} className=" inline-flex" />User-Friendly Interface
-            <img src={altxt} className=" inline-flex" />Personalized Customization
+            <span><img src={altxt} alt="" className=" inline" />Instant Results 
+            <img src={altxt} alt="" className=" inline-flex" />User-Friendly Interface
+            <img src={altxt} alt="" className=" inline-flex" />Personalized Customization
             </span>
         </div>
     )

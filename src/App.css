@@ -14,18 +14,27 @@
  .sec5{
   flex-direction: column;
  }
+ .sec2{
+  flex-direction: column;
+  padding:0;
+  margin: 0;
+  flex-wrap: wrap;
+ }
 }
 
-@media (max-width:470px){
+@media (max-width:480px){
   
   .banner{
     flex-direction: column;
-       
+     width: 25px; 
+     align-items: end;
   }
   .sec5-1{
     flex-direction: column;
    }
-  
+ .footer{
+  flex-direction: column;
+ } 
 }
 
 .section1{
@@ -47,3 +56,21 @@
 width: 100vw; 
 background: linear-gradient(96.22deg, #FFA229 9%, #1C4670 59.37%);
 }
+
+.listel{
+  font-size: x-large;
+  
+  font-weight: 900;
+  font: bolder;
+background: linear-gradient(161.91deg, #FFA229 10%, #2F5795 68%);
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+
+/* .gradient-text {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+} */
