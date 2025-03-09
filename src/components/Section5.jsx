@@ -16,7 +16,7 @@ function Section5(){
              turn help us to serve the business better.
             </p>
             </article>
-            <article className="flex flex-wrap basis-[70%] relative left-[30%] gap-5 justify-center bg-blue-300 rounded-4xl p-3">
+            <article className="grtst flex flex-wrap basis-[70%] relative left-[30%] gap-5 justify-center bg-blue-300 rounded-4xl p-3">
                <img src={sym1} alt=""  />
                 <h1 className=" text-3xl font-bold">Guaranteed Satisfaction</h1>
                 <p>We ensure that you stay 100% satisfied with our offered services</p>

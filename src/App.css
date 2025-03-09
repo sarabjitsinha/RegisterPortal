@@ -35,6 +35,14 @@
  .footer{
   flex-direction: column;
  } 
+ .sec10{
+  flex-direction: column;
+
+ }
+ .grtst{
+  left: 0%;
+ }
+
 }
 
 .section1{
@@ -51,9 +59,10 @@
 
 .div3{
   flex-basis: 20%;
-}
+ }
+
 .divsec{
-width: 100vw; 
+width: 98vw; 
 background: linear-gradient(96.22deg, #FFA229 9%, #1C4670 59.37%);
 }
 
@@ -74,3 +83,9 @@ background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 } */
+
+
+.footer{
+  width: 97vw;
+}
+

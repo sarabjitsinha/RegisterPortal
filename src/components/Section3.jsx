@@ -7,7 +7,7 @@ function Section3(){
         <div>
             <p className=" text-xl text-amber-500 text-center"> WELCOME TO REGISTERKARO. IN</p>
             <h1 className=" text-4xl font-bold text-center">Explore our services</h1>
-            <section className="flex flex-wrap pl-30">
+            <section className="flex flex-wrap ">
                 {ourServices.map((item,index)=>{
                     return(
         <div key={index}>

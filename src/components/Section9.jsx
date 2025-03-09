@@ -8,10 +8,17 @@ function Section9(){
                 return(
                     <div key={index} className=" basis-[30%] pl-5 m-auto">
                         <img src={item.cover_image}  />
-                        <p>{item.author}</p>
-                        <p >{item.heading}</p>
+                        <br />
+                        <p className=" font-medium">{item.author}</p>
+                        <br />
+                        <p className=" text-2xl font-bold">{item.heading}</p>
+                        <br />
                         <p>{item.stext}</p>
-                        <p>{item.text1}  {item.text2}  {item.text3}</p>
+                        <br />
+                        <p><span className=" text-green-500 font-semibold p-2">{item.text1}</span>  
+                        <span className=" text-blue-400 font-semibold p-2">{item.text2}</span>
+                          <span className=" text-pink-400 font-semibold">{item.text3}</span>
+                          </p>
                     </div>
                 )
             })
