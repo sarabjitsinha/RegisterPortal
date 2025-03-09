@@ -26,8 +26,8 @@
   
   .banner{
     flex-direction: column;
-     width: 25px; 
-     align-items: end;
+     /* width: 25px;  */
+     align-items: start;
   }
   .sec5-1{
     flex-direction: column;
@@ -41,6 +41,9 @@
  }
  .grtst{
   left: 0%;
+ }
+ .sec8{
+  flex-direction: column;
  }
 
 }

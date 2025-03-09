@@ -5,7 +5,7 @@ import Vect1 from "/Vector (3).svg"
 
 function Section8(){
     return(
-        <div className=" flex w-auto bg-amber-500 mt-16 h-auto justify-evenly">
+        <div className=" flex w-auto bg-amber-500 mt-16 h-auto justify-evenly sec8">
             <div>
             <img src={cont} alt="" className="inline bg-green-500 rounded-full w-8 "/>
             <span>Make Online Payment</span>
