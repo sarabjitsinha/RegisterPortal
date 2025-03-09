@@ -12,7 +12,7 @@ function Section6(){
                 vulputate pellentesque a diam tincidunt apis dui.</p>
 
                 <div className=" flex flex-wrap">
-                <img src={di1} alt="" />
+                <img src={di1} alt="di" />
             
                 <p className="flex items-center text-xl font-medium p-2">Explore ideas together</p>
                 <p>
@@ -21,14 +21,14 @@ function Section6(){
                 </p>
                 </div>
 
-                <img src={di2} alt="" />
+                <img src={di2} alt="di2" />
                 <p className=" flex items-center text-xl font-medium p-2">Bring those ideas to life</p>
                 <p>Engage audience segments and finally create actionable insights.
                     Amplify vertical integration.
                 </p>
             </div>
             <div className=" flex relative basis-[50%] p-5">
-                <img src={fbbt} alt="" />
+                <img src={fbbt} alt="fbdb" />
             </div>
 
         </div>

@@ -6,7 +6,7 @@ function Section15(){
             {companyIcon.map((item,index)=>{
                 return(
                     <div key={index}>
-                        <img src={item} className=" inline" />
+                        <img src={item} alt="item" className=" inline" />
                     </div>
                 )
             })

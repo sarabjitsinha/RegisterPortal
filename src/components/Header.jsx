@@ -4,12 +4,13 @@ import logo from "/logo_logo_1.svg"
 function Header(){
     return(
         <div className="header">
-            <img src={logo} alt="" />
+            <img src={logo} alt="logo" />
             <span>Home</span>
-            <select name="" id="">
-            <option value="">Our Services</option>
-            <option value="">A</option>
-            <option value="">B</option>
+            <label htmlFor="service"></label>
+            <select name="service" id="service" >
+            <option value="ourservice">OurServices</option>
+            <option value="serviceA">Service-A</option>
+            <option value="serviceB">Service-B</option>
             </select>
             <span>Blog</span>
             <span>Contact Us</span>

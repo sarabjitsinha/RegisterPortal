@@ -5,7 +5,7 @@ import pintrest from "/Pintrest.svg";
 
 function Footer() {
   return (
-    <div className=" bg-blue-900 w-auto">
+    <div className=" bg-blue-900 w-auto text-white">
       <div className="footer flex justify-evenly">
         <div className=" flex flex-wrap basis-[20%]">
           <p>
@@ -13,14 +13,14 @@ function Footer() {
             matter of minutes
           </p>
           <span>
-            <img src={fb} alt="" className="inline" />
-            <img src={insta} alt="" className="inline" />
-            <img src={twitter} alt="" className="inline" />
-            <img src={pintrest} alt="" className="inline" />
+            <img src={fb} alt="fb" className="inline" />
+            <img src={insta} alt="insta" className="inline" />
+            <img src={twitter} alt="twitter" className="inline" />
+            <img src={pintrest} alt="pintrest" className="inline" />
           </span>
         </div>
         <div>
-          <h2 className=" text-amber-500">START A BUSINESS</h2>
+          <h2 className=" text-amber-400">START A BUSINESS</h2>
           <br />
           <ul itemType="none">
             <li>Features</li>
@@ -31,7 +31,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className=" text-amber-500">GOVERNMENT REGISTRATION</h2>
+          <h2 className=" text-amber-400">GOVERNMENT REGISTRATION</h2>
           <br />
           <ul itemType="none">
             <li>Partners</li>
@@ -42,7 +42,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className=" text-amber-500">COMPLIANCE & TAX</h2>
+          <h2 className=" text-amber-400">COMPLIANCE & TAX</h2>
           <br />
           <ul itemType="none">
             <li>Channel</li>
@@ -52,7 +52,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className=" text-amber-500">BIS & CDSO</h2>
+          <h2 className=" text-amber-400">BIS & CDSO</h2>
           <br />
           <ul itemType="none">
             <li>About Us</li>

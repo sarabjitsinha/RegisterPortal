@@ -14,8 +14,8 @@ function Section7(){
                 return(
                     <div>
                     {(index%2==0) ?
-                    <img src={item} alt="" className="inline" key={index} /> :
-                    <img src={item} alt="" className="inline top-15 relative" key={index} />}
+                    <img src={item} alt="item" className="inline" key={index} /> :
+                    <img src={item} alt="item" className="inline top-15 relative" key={index} />}
                     </div>
                 )
 

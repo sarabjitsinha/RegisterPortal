@@ -20,6 +20,10 @@
   margin: 0;
   flex-wrap: wrap;
  }
+ .section1{
+  padding: 10px;
+  flex-direction: column;
+}
 }
 
 @media (max-width:480px){
@@ -48,9 +52,7 @@
 
 }
 
-.section1{
-  padding: 10px;
-}
+
 
 .div1{
   flex-basis: 40%;

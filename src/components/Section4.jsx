@@ -22,11 +22,11 @@ function Section4(){
                 I would strongly recommend their services to any organization that is looking for
                 solid, reliable, and predictable outcomes.</p>
                 <br /><br />
-                <button className="bg-blue-900 p-2">Learn More  <img src={sym} alt="" className="inline"/></button>
+                <button className="bg-blue-900 p-2 text-white">Learn More  <img src={sym} alt="sym" className="inline"/></button>
                 
                 </div>
             <div>
-                <img src={frame} alt="" />
+                <img src={frame} alt="frame" />
             </div>
 
         </div>

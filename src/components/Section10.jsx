@@ -9,8 +9,8 @@ function Section10() {
       <div className=" flex border-0.5 p-4 gap-2 overflow-x-hidden w-auto h-auto">
         <div className=" basis-[30%] bg-white rounded-md p-2 ">
           <div className=" flex justify-between p-2">
-            <img src={punct} alt="" />
-            <img src={star} alt="" />
+            <img src={punct} alt="pn" />
+            <img src={star} alt="st" />
           </div>
           <p>
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -19,7 +19,7 @@ function Section10() {
             amet occaecat cupidatat non proident
           </p>
           <div className=" flex w-auto sec10">
-            <img src={uimage1} alt="" className=" pt-3" />
+            <img src={uimage1} alt="ui" className=" pt-3" />
             <div>
               <p className=" font-bold ">Chris</p>
               <p>President and CEO, PrintReach,USA</p>
@@ -29,8 +29,8 @@ function Section10() {
 
         <div className=" basis-[60%] bg-white rounded-md p-3 ml-12 w-auto">
           <div className=" flex justify-between p-2 ">
-            <img src={punct} alt="" />
-            <img src={star} alt="" />
+            <img src={punct} alt="pn" />
+            <img src={star} alt="st" />
           </div>
           <p>
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -39,7 +39,7 @@ function Section10() {
             amet occaecat cupidatat non proident
           </p>
           <div className=" flex w-auto sec10">
-            <img src={uimage1} alt="" className="pt-3" />
+            <img src={uimage1} alt="ui" className="pt-3" />
             <div>
               <p className=" font-bold ">Chris</p>
               <p>President and CEO, PrintReach,USA</p>
@@ -49,8 +49,8 @@ function Section10() {
 
         <div className=" basis-[30%] relative right-[-60px]  bg-white rounded-md p-2">
           <div className=" flex justify-between p-2">
-            <img src={punct} alt="" />
-            <img src={star} alt="" />
+            <img src={punct} alt="pn" />
+            <img src={star} alt="st" />
           </div>
           <p>
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -59,7 +59,7 @@ function Section10() {
             amet occaecat cupidatat non proident
           </p>
           <div className=" flex">
-            <img src={uimage1} alt="" className=" pt-3" />
+            <img src={uimage1} alt="ui" className=" pt-3" />
             <div>
               <p className=" font-bold ">Chris</p>
               <p>President and CEO, PrintReach,USA</p>

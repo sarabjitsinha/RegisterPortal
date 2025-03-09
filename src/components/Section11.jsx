@@ -12,7 +12,7 @@ function Section11(){
             {faq.map((item,index)=>{
                 return(
                     <div key={index} className=" flex justify-between border-[1px] border-slate-300 pl-2 pr-2">
-                       <span><img src={item.icon} alt="" className="inline"/>{item.desc}</span>   
+                       <span><img src={item.icon} alt="icon" className="inline"/>{item.desc}</span>   
                        <div>{item.sign}</div>  
                     </div>
                 )
