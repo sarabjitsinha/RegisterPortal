@@ -5,7 +5,7 @@ import fbbt from "/Fbdb.svg";
 
 function Section6(){
     return(
-        <div className=" flex flex-wrap bg-blue-900">
+        <div className=" flex flex-wrap bg-blue-900 text-white">
             <div className=" flex flex-wrap basis-[50%] p-10">
                 <h1 className=" text-3xl font-bold">Our Video Introductions</h1>
                 <p>Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna

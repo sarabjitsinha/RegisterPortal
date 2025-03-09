@@ -2,6 +2,8 @@ import Img1 from "/section1_1.svg";
 import Img2 from "/sec2.2.svg";
 import Img3 from "/sec2.3.svg";
 import Img4 from "/sec2.1.png";
+import client from "/Client.svg"
+import fin from "/Fin.svg"
 
 function Section1() {
   return (
@@ -22,13 +24,34 @@ function Section1() {
           </p>
           <br />
           <br />
+
+          <div className="sec1trust flex gap-5 p-4">
           <div className=" flex flex-col">
             <img src={Img4} alt="img4" className="h-auto w-6" />
             <div className=" flex">
               <h2 className=" font-bold text-amber-500">4.5+</h2>
               <h3>Customer Rating</h3>
-            </div>
+            </div>            
           </div>
+
+          <div className=" flex flex-col">
+            <img src={client} alt="img4" className="h-auto w-6" />
+            <div className=" flex">
+              <h2 className=" font-bold text-amber-500">20,000+</h2>
+              <h3>Clients</h3>
+            </div>            
+          </div>
+
+          <div className=" flex flex-col">
+            <img src={fin} alt="img4" className="h-auto w-6" />
+            <div className=" flex">
+              <h2 className=" font-bold text-amber-500">99.8%</h2>
+              <h3>Financial stability</h3>
+            </div>            
+          </div>
+
+          </div>
+
           <br />
           <br />
           <div className=" flex p-3">

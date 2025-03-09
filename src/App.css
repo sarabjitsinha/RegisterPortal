@@ -24,13 +24,16 @@
   padding: 10px;
   flex-direction: column;
 }
+
+
 }
+
+
 
 @media (max-width:480px){
   
   .banner{
     flex-direction: column;
-     /* width: 25px;  */
      align-items: start;
   }
   .sec5-1{
@@ -47,6 +50,9 @@
   left: 0%;
  }
  .sec8{
+  flex-direction: column;
+ }
+ .sec1trust{
   flex-direction: column;
  }
 
@@ -82,15 +88,143 @@ background-clip: text;
 
 }
 
-/* .gradient-text {
-  background: linear-gradient(90deg, #ff7e5f, #feb47b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-} */
-
 
 .footer{
   width: 97vw;
 }
+
+
+
+.phone1{
+  height: calc(var(--height)*0.45);
+}
+
+@media (min-width:900px) and (max-width:1100px) {
+  
+.phone{
+  height:calc(var(--height)*0.5);
+}
+.phone1{
+  position: relative;
+  top: calc(var(--height)*0.13);
+}
+.phone2{
+  position: relative;
+  top: calc(var(--height)*0.1);
+}
+
+}
+
+@media (min-width:800px) and (max-width:900px) {
+  
+  .phone{
+    height:calc(var(--height)*0.6);
+  }
+  .phone1{
+    position: relative;
+    top: calc(var(--height)*0.26);
+  }
+  .phone2{
+    position: relative;
+    top: calc(var(--height)*0.26);
+  }
+  
+  }
+
+  @media (min-width:650px) and (max-width:800px) {
+  
+    .phone{
+      height:calc(var(--height)*0.6);
+    }
+    .phone1{
+      position: relative;
+      top: calc(var(--height)*0.3);
+    }
+    .phone2{
+      position: relative;
+      top: calc(var(--height)*0.33);
+    }
+    
+    }
+
+    @media (min-width:550px) and (max-width:650px) {
+  
+      .phone{
+        height:calc(var(--height)*0.6);
+      }
+      .phone1{
+        position: relative;
+        top: calc(var(--height)*0.33);
+      }
+      .phone2{
+        position: relative;
+        top: calc(var(--height)*0.35);
+      }
+      
+      }
+
+      @media (min-width:450px) and (max-width:550px) {
+  
+        .phone{
+          height:calc(var(--height)*0.6);
+        }
+        .phone1{
+          position: relative;
+          top: calc(var(--height)*0.37);
+        }
+        .phone2{
+          position: relative;
+          top: calc(var(--height)*0.39);
+        }
+        
+        }
+
+        @media (min-width:400px) and (max-width:450px) {
+  
+          .phone{
+            height:calc(var(--height)*0.6);
+          }
+          .phone1{
+            position: relative;
+            top: calc(var(--height)*0.39);
+          }
+          .phone2{
+            position: relative;
+            top: calc(var(--height)*0.42);
+          }
+          
+          }
+
+          
+        @media (min-width:350px) and (max-width:400px) {
+  
+          .phone{
+            height:calc(var(--height)*0.7);
+          }
+          .phone1{
+            position: relative;
+            top: calc(var(--height)*0.5);
+          }
+          .phone2{
+            position: relative;
+            top: calc(var(--height)*0.55);
+          }
+          
+          }
+
+          @media (min-width:200px) and (max-width:350px) {
+  
+            .phone{
+              height:calc(var(--height)*0.8);
+            }
+            .phone1{
+              position: relative;
+              top: calc(var(--height)*0.6);
+            }
+            .phone2{
+              position: relative;
+              top: calc(var(--height)*0.65);
+            }
+            
+            }  
 

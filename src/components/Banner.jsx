@@ -8,7 +8,7 @@ import symbol1 from "/Symbol-1.svg"
 function Banner(){
 
     return(
-        <div className=" bg-blue-400 flex justify-center gap-4 w-[99%] ">
+        <div className=" bg-blue-400 flex justify-center gap-4  ">
         <div className="banner h-auto flex gap-4">
             <div className=" flex">
             <img src={symbol} alt="logo" />

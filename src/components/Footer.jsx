@@ -13,7 +13,7 @@ function Footer() {
             matter of minutes
           </p>
           <span>
-            <img src={fb} alt="fb" className="inline" />
+            <img src={fb} alt="fb" className="inline"/>
             <img src={insta} alt="insta" className="inline" />
             <img src={twitter} alt="twitter" className="inline" />
             <img src={pintrest} alt="pintrest" className="inline" />
@@ -29,6 +29,7 @@ function Footer() {
             <li>Enterprise</li>
             <li>Solutions</li>
           </ul>
+          <br />
         </div>
         <div>
           <h2 className=" text-amber-400">GOVERNMENT REGISTRATION</h2>
@@ -40,6 +41,7 @@ function Footer() {
             <li>App</li>
             <li>Blog</li>
           </ul>
+          <br />
         </div>
         <div>
           <h2 className=" text-amber-400">COMPLIANCE & TAX</h2>
@@ -50,6 +52,7 @@ function Footer() {
             <li>Watch the demo</li>
             <li>Our competition</li>
           </ul>
+          <br />
         </div>
         <div>
           <h2 className=" text-amber-400">BIS & CDSO</h2>
@@ -60,6 +63,7 @@ function Footer() {
             <li>Leadership</li>
             <li>Media Kit</li>
           </ul>
+          <br />
         </div>
       </div>
       <p align="center">@ 2024 Registerkaro. All rights reserved</p>
