@@ -78,10 +78,9 @@ background: linear-gradient(96.22deg, #FFA229 9%, #1C4670 59.37%);
 }
 
 .listel{
-  font-size: x-large;
-  
-  font-weight: 900;
-  font: bolder;
+font-size: large;
+font-weight: 900;
+font: bolder;
 background: linear-gradient(161.91deg, #FFA229 10%, #2F5795 68%);
 background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -228,3 +227,9 @@ background-clip: text;
             
             }  
 
+@media (min-width:900px) {
+  .sec4main{
+    flex-direction: row;
+  }
+  
+}

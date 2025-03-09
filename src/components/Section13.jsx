@@ -10,38 +10,38 @@ function Section13(){
            
             <div>
                 <ul itemType="none" className="listel" >
-                    <li >1M<sup className="listel">+</sup></li>
+                    <li className=" text-center text-2xl">1M<sup className="listel">+</sup></li>
                     <li>CUSTOMERS</li>
                 </ul>
             </div>
             <div>
                 <ul itemType="none" className="listel" >
-                    <li >12<sup className="listel">+</sup></li>
-                    <li>Years of experience</li>
+                    <li className=" text-center text-2xl">12<sup className="listel">+</sup></li>
+                    <li>YEARS OF EXCELLENCE</li>
                 </ul>
             </div>
             <div>
                 <ul itemType="none" className="listel" >
-                    <li >41<sup className="listel">+</sup></li>
-                    <li>R&D Engineers</li>
+                    <li className=" text-center text-2xl">41<sup className="listel">+</sup></li>
+                    <li>R&D ENGINEERS</li>
                 </ul>
             </div>
             <div>
                 <ul itemType="none" className="listel" >
-                    <li >78<sup className="listel">+</sup></li>
-                    <li>Countries</li>
+                    <li className=" text-center text-2xl">78<sup className="listel">+</sup></li>
+                    <li>COUNTRIES</li>
                 </ul>
             </div>
             <div>
                 <ul itemType="none" className="listel" >
-                    <li >41<sup className="listel">+</sup></li>
-                    <li>Awards Received</li>
+                    <li className=" text-center text-2xl">41<sup className="listel">+</sup></li>
+                    <li>AWARDS RECEIVED</li>
                 </ul>
             </div>
             <div>
                 <ul itemType="none" className="listel" >
-                    <li >3287<sup className="listel">+</sup></li>
-                    <li>Partners</li>
+                    <li className=" text-center text-2xl">3287<sup className="listel">+</sup></li>
+                    <li>PARTNERS</li>
                 </ul>
             </div>
             </section>

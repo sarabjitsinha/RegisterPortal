@@ -1,10 +1,10 @@
 import sym from "/Symbol-6.svg"
-import frame from "/Frame 394.svg"
+import frame from "/Group_pic.svg"
 
 function Section4(){
 
     return(
-        <div className=" flex flex-wrap pb-5" >
+        <div className="sec4main flex flex-wrap pb-5  justify-around" >
             <div className=" basis-[50%] p-4">
             <h1 className=" text-amber-500">WELCOME TO REGISTERKARO. IN </h1>
             <br />
@@ -26,7 +26,7 @@ function Section4(){
                 
                 </div>
             <div>
-                <img src={frame} alt="frame" />
+                <img src={frame} alt="frame" className="w-[370px] flex pt-25 "  />
             </div>
 
         </div>

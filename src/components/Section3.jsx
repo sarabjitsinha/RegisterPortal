@@ -22,7 +22,7 @@ function Section3(){
         </div>
         </div> )})}
         </section>
-        <button className="bg-blue-700 p-2 text-white">See All Services  <img src={sym} alt="sym" className="inline bg-black"/></button>
+        <button className="bg-blue-700 p-2 text-white flex justify-self-center">See All Services  <img src={sym} alt="sym" className="inline bg-black"/></button>
         </div>
     )
 }
