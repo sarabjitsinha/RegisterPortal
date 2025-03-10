@@ -4,9 +4,10 @@ import { ourServices } from "../assets/data";
 function Section3(){
 
     return(
-        <div>
+        <div className="mt-1">
             <p className=" text-xl text-amber-500 text-center"> WELCOME TO REGISTERKARO. IN</p>
             <h1 className=" text-4xl font-bold text-center">Explore our services</h1>
+            <br />
             <section className="flex flex-wrap ">
                 {ourServices.map((item,index)=>{
                     return(
@@ -22,6 +23,7 @@ function Section3(){
         </div>
         </div> )})}
         </section>
+        <br />
         <button className="bg-blue-700 p-2 text-white flex justify-self-center">See All Services  <img src={sym} alt="sym" className="inline bg-black"/></button>
         </div>
     )
